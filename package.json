@@ -1,0 +1,15 @@
+{
+  "name": "mock-chocolate-collection-api",
+  "version": "1.0.0",
+  "description": "mock backend based on json-server for chocolate collection based projects",
+  "main": "index.js",
+  "repository": "https://github.com/baluragala/mock-chocolate-collection-api.git",
+  "author": "bala krishna ragala",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.12.2"
+  },
+  "scripts": {
+    "start": "json-server --watch db.json --delay 1000 --port 4000 --static ./public"
+  }
+}
